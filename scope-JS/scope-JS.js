@@ -18,7 +18,7 @@ scope1();
 
  /* 
     whole summary scope2 (lexically inside) -> scope1 (lexically inside) -> Global Scope (scope chain) and it will refer to its memory allocation.
-    **imp -> (scope2) will have always local memory of (scope2) and lexical env of basically its parent (scope 1) and global
+    **imp -> (scope2) will always have local memory of (scope2) and lexical env of basically its parent (scope 1) and global
  */
 
 // 3) Let and Const in Js (Temporal Dead Zone)
@@ -33,3 +33,14 @@ const variableExampleForConst = 20 ;
 console.log(variableExampleForConst)
 
 //3) Block Scope and Shadowing In js :
+
+console.log("Block scope examples:")
+
+var a  = 20
+
+{
+  let a = 10;
+  console.log(a)
+}
+
+console.log(a)
