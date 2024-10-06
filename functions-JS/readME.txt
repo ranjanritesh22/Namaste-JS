@@ -9,3 +9,13 @@
  //Parameters and arguments
  //First class function
  //Arrow Functions
+
+4) Callback Functions in js ft. EventListeners
+  // callback function in js
+  //Javascript is synchronous and single threaded language.
+  //Blocking the main thread or never block the callstack.
+  //power of callbacks
+  //Event Listeners and closures plays a role here
+  //Garbage collection and Remove Event listeners:
+  
+5) Asynchronous and Event Loop in js
